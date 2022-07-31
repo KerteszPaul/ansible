@@ -1,0 +1,19 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+
+  - name: install apache2 and php package
+    apt:
+      name:
+        - apache2
+        - libapache2-mod-php  
+      state: latest
+      update_cache: yes  
+#     when: ansible_distribution == "Ubuntu" - daca celelalte servere nu folosesc Ubuntu sau orice alt OS care foloseste "apt" ca si pakage manager"
+#     when: ansible_distribution in ["Debian", "Ubuntu"] - daca celelalte servere nu folosesc Ubuntu sau orice alt OS care foloseste "apt" ca si pakage manager, se va instala doar pe serverele ce rleaza cu Ubuntu si/sau Debian"
+
+
+
