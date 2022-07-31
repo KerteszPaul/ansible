@@ -1,0 +1,469 @@
+    1  sudo apt install vim
+    2  ifconfig
+    3  sudi apt install net-tools
+    4  sudo apt install net-tools
+    5  ifconfig
+    6  ifconfig -a
+    7  dhclient snp0s3
+    8  dhclient enp0s
+    9  if config  enp0s
+   10  ifconfig enp0s3
+   11  dhclient enp0s3
+   12  sudo bash
+   13  8.8.8.8
+   14  ping 8.8.8.8
+   15  ifconfig
+   16  sudo bash
+   17  ping 8.8.8.8
+   18  ifconfig -a
+   19  dhclient enp0s3
+   20  sudo dash
+   21  dhclient enp0s3
+   22  sudo bash
+   23  ping 8.8.8.8
+   24  ip route show
+   25  sudo apt install wireshark
+   26  wireshark
+   27  ls
+   28  dc desktop
+   29  cd desktop
+   30  dc Desktop
+   31  cd Desktop
+   32  mkdir Folder
+   33  cd Folder
+   34  cat >file.txt
+   35  cat file.txt
+   36  cat file.txtx | echo >> sdjkfnas | wc
+   37  cat file.txt
+   38  cd $home
+   39  mkdir Tutorial
+   40  cd Tutorial
+   41  mkdir lab
+   42  mkdir exercises
+   43  chmod 0=0 exercises
+   44  chmod o-rwx exercises/
+   45  chmod g=rw exercises/
+   46  cd lab
+   47  touch subject_{1..5}.dat
+   48  ls
+   49  rm subject_*.dat
+   50  ls
+   51  cd../
+   52  cd ../../
+   53  cd Tutorial
+   54  ls
+   55  rmdir exercises/ lab/
+   56  ls
+   57  ls /home | sort > file.txt
+   58  ls
+   59  rm file.txt
+   60  ls
+   61  touch gcutError_recon-all.log s10_recon-all.log s1_recon-all.log s6_recon-all.log s8_recon-all.log
+   62  ls
+   63  ls gcut*
+   64  ls *recon-all
+   65  ls *recon-all.log
+   66  ls s[0..9]
+   67  ls s[0..9]*
+   68  ls s[0-9]*
+   69  ls s[0-9]_*
+   70  ls s[!0-9]_*
+   71  ls s[!0-9]*
+   72  ls s1[0-9]*
+   73  ls s1[1-9]*
+   74  ls [sg0]
+   75  ls [sg0]*
+   76  ls [!s]*
+   77  em  gcutError_recon-all.log s10_recon-all.log s1_recon-all.log s6_recon-all.log s8_recon-all.log
+   78  rm  gcutError_recon-all.log s10_recon-all.log s1_recon-all.log s6_recon-all.log s8_recon-all.log
+   79  ls
+   80  wget https://raw.githubusercontent.com/Donders-Institute/hpc-wiki-v2/master/docs/linux/exercise/gcutError_recon-all.log
+   81  ls
+   82  cat gcutError_recon-all.log 
+   83  cat gcutError_recon-all.log | frep SEARCHTERM
+   84  cat gcutError_recon-all.log | grep SEARCHTERM
+   85  cat gcutError_recon-all.log | grep Subject
+   86  cat gcutError_recon-all.log | grep Subject [0-9]*
+   87  cat gcutError_recon-all.log | grep Subject[0-9]*
+   88  cat gcutError_recon-all.log | grep Subject[0-9]_*
+   89  cat gcutError_recon-all.log | grep Subject[0-9]_* | wc
+   90  cat gcutError_recon-all.log | grep [0-9][0-9].*
+   91  cat gcutError_recon-all.log | grep [0-9][0-9].* | pr -1
+   92  cat gcutError_recon-all.log | grep [0-9][0-9].* | pr -n 1
+   93  cat gcutError_recon-all.log | grep [0-9][0-9].* | pr -n1
+   94  cat gcutError_recon-all.log | grep [0-9][0-9].* | head 1
+   95  cat gcutError_recon-all.log | grep [0-9][0-9].* | head -1
+   96  curl google.ro
+   97  sudo apt install curl
+   98  curl google.com
+   99  curl google.ro
+  100  curl pornhub.com
+  101  curl http://www.pornhub.com
+  102  curl http://www.google.com
+  103  ls
+  104  cat minciuni.txt
+  105  cd Paul
+  106  ls
+  107  cs..
+  108  cd ..
+  109  vim script.sh
+  110  systemctl list
+  111  systemctl --list
+  112  systemctl --help
+  113  systemctl list-units
+  114  sudo apt install nginx
+  115  systemctl status nginx
+  116  systemctl stop nginx
+  117  systemctl status nginx
+  118  systemctl start nginx
+  119  vim /var/log/nginx/error.log 
+  120  vim /var/log/nginx/access.log 
+  121  cd /etc/systemd/system
+  122  ls
+  123  vim serviciupulii.service
+  124  sudo vim serviciupulii.service
+  125  sudo systemctl daemon-reload
+  126  ls
+  127  systemctl status serviciupulii
+  128  sudo vim serviciupulii.service
+  129  sudo systemctl daemon-reload
+  130  systemctl status serviciupulii
+  131  sudo vim serviciupulii.service
+  132  ls /home/lemon/Paul/
+  133  ls /home/lemon/
+  134  vim /home/lemon/script.sh 
+  135  mv /home/lemon/script.sh /home/lemon/Paul/script.sh
+  136  systemctl status serviciupulii
+  137  systemctl stop serviciupulii
+  138  systemctl start serviciupulii
+  139  systemctl status serviciupulii
+  140  ls /home/lemon/Paul/
+  141  systemctl status serviciupulii
+  142  journalctl
+  143  journalctl -u serviciupulii.service
+  144  ls /home/lemon/Paul/
+  145  /home/lemon
+  146  ls /home/lemon
+  147  ls /root
+  148  sudo ls /root
+  149  vim /home/lemon/Paul/script.sh 
+  150  systemctl status serviciupulii
+  151  journalctl -u serviciupulii.service
+  152  systemctl stop serviciupulii
+  153  systemctl start serviciupulii
+  154  systemctl status serviciupulii
+  155  ls /home/lemon/Paul/
+  156  ls /home/lemon/Paul/Ion/
+  157  crontab
+  158  vim /etc/crontab
+  159  sudo vim /etc/crontab
+  160  systemctl status smtp
+  161  vim /etc/nginx/sites-enabled/default 
+  162  vim /var/www/html/index.nginx-debian.html 
+  163  sudo vim /var/www/html/index.nginx-debian.html 
+  164  systemctl reload nginx
+  165  sudo vim /var/www/html/index.nginx-debian.html 
+  166  systemctl reload nginx
+  167  vim /etc/nginx/sites-enabled/default 
+  168  ip addr
+  169  ping youtube.com
+  170  ping facebook.com
+  171  tree
+  172  sudo apt install tree
+  173  tree
+  174  cd /home/
+  175  tree
+  176  cd /etc/nginx/
+  177  ls
+  178  ls conf.d/
+  179  vim sites-enabled/default 
+  180  sudo vim sites-enabled/default 
+  181  sudo vim conf.d/.htaccess
+  182  sudo vim sites-enabled/default 
+  183  vin script.sh
+  184  vim script.sh
+  185  hystory
+  186  history
+  187  vim /home/lemon/Paul/script.sh
+  188  vim /etc/systemd/system/serviciupulii.service 
+  189  ls
+  190  cd Riki
+  191  ls
+  192  touch eminescu.txt
+  193  vim eminescu.txt
+  194  sad -i 's/luceafar/pula/g' eminescu.txt
+  195  sed -i 's/luceafar/pula/g' eminescu.txt
+  196  cat eminescu.txt
+  197  sed -i 's/luceafăr/pula/g' eminescu.txt
+  198  cat eminescu.txt
+  199  cat eminescu.txt | wc 
+  200  ls -lh eminescu.txt | wc 
+  201  ls -lh eminescu.txt 
+  202  ls eminescu.txt 
+  203  ls -a eminescu.txt 
+  204  ls -l eminescu.txt 
+  205  cat eminescu.txt | lc
+  206  cat eminescu.txt | -lc
+  207  ls -help
+  208  ls help
+  209  ls --help
+  210  cat eminescu.txt | -pr -n
+  211  cat eminescu.txt | -n
+  212  ls eminesc.txt | -pr
+  213  ls eminesc.txt | pr
+  214  ls eminesc.txt | pr -n
+  215  cat eminescu.txt | pr -n
+  216  ls -l eminescu.txt | wc 
+  217  ls --help
+  218  ls -l --help
+  219  -l --help
+  220  ls --help
+  221  cat eminescu.txt | pr -n
+  222  ls -lh eminescu.txt | wc 
+  223  ls  eminescu.txt | wc 
+  224  ls eminescu.txt | wc 
+  225  ls -l eminescu.txt | wc
+  226  cat eminescu.txt | wc
+  227  cat -h eminescu.txt | wc
+  228  cat eminescu.txt 
+  229  ls -h eminescu.txt
+  230  ls -h eminescu.txt | wc
+  231  ls -l eminescu.txt | wc
+  232  ls --help
+  233  ls --HELP
+  234  ls -l eminescu.txt
+  235  ls -lh eminescu.txt
+  236  vim eminescu.txt 
+  237  ls -lh eminescu.txt
+  238  ls -l eminescu.txt
+  239  ls -l eminescu.txt | wc
+  240  ls -lh eminescu.txt | wc
+  241  cat eminescu.txt | wc
+  242  cat eminescu.txt | pr -n
+  243  cat eminescu.txt | pr -3
+  244  cat eminescu.txt | pr -2
+  245  cat eminescu.txt | pr -2 | cat > file
+  246  ls
+  247  cat file | wc
+  248  cat eminescu.txt | wc
+  249  ls -lh file | wc
+  250  cd riki
+  251  cd Riki
+  252  sudo su 
+  253  sudo su
+  254  sed -i 's/b/9999/g' /home/lemon/eminescu.txt
+  255  vim /home/lemon/eminescu.txt 
+  256  sed -i 's/9999/b/g' /home/lemon/eminescu.txt
+  257  cat /home/lemon/eminescu.txt | sed -i 's/b/9999/g' >> /home/lemon/script
+  258  sudo cat /home/lemon/eminescu.txt | sed -i 's/b/9999/g' >> /home/lemon/script
+  259  cat /home/lemon/script
+  260  ls -lh eminescu.txt | wc
+  261  ls -l eminescu.txt | wc
+  262  ls -lh eminescu.txt
+  263  ls -l eminescu.txt
+  264  whoami
+  265  ssh
+  266  ls
+  267  vim script
+  268  chmod 755 script
+  269  sudo chmod 755 script
+  270  vim script
+  271  ls script
+  272  ls
+  273  ls -l
+  274  chmod +w script
+  275  chmod +x script
+  276  ls -l
+  277  ./script
+  278  vim script
+  279  crontab 1**** | echo "asd"
+  280  ./script
+  281  crontab 1**** /home/lemon/script
+  282  crontab -e
+  283  crontab -l
+  284  crontab-e
+  285  crontab -e
+  286  ssh
+  287  ssh -kigen
+  288  sudo su
+  289  ssh rikard@192.168.1.205
+  290  dns
+  291  dms
+  292  ipables
+  293  ping
+  294  ping google.ro
+  295  sudo nano /etc/resolv.conf
+  296  vim /etc/network/interface
+  297  sudo su
+  298  ip addr
+  299  user
+  300  user -l
+  301  ssh rikard@192.168.1.10
+  302  ls 
+  303  ip addr
+  304  ssh rikard@192.168.1.10
+  305  ip addr
+  306  ipaddr
+  307  syste-resolv --status
+  308  syste-resolve --status
+  309  system-resolve --status
+  310  systemd-resolve --status
+  311  systemcdl
+  312  systemctl
+  313  sudo iptables -l
+  314  sudo iptables -f
+  315  vim /etc/ssh/sshd_config
+  316  systemctl restart ssh
+  317  sssh
+  318  ssh
+  319  sudo apt install ssh
+  320  ssh
+  321  sudo apt update
+  322  ssh
+  323  ssh rikard@192.168.1.10
+  324  ssh rikard@192.168.1.255
+  325  ssh lemon@192.168.1.205
+  326  myipadress
+  327  ip addr
+  328  ls /home
+  329  cd riki
+  330  cd /home/riki
+  331  sudo su
+  332  ssh lemon@192.168.100.21
+  333  usermod
+  334  sudo su
+  335  ssh lemon@192.168.100.21
+  336  vim keygen.pub
+  337  vim config
+  338  chmod 644 config
+  339  ls
+  340  ls -a
+  341  cd .ssh
+  342  ls
+  343  mv /home/lemon/config /home/lemon/.ssh
+  344  ls
+  345  ls -alht
+  346  chmod 644 config 
+  347  ls -alht
+  348  s
+  349  sudo vim /etc/ssh/sshd_config
+  350  systemctl restart ssh
+  351  ls
+  352  cat config
+  353  ssh pc@192.168.1.205
+  354  alias ssha='eval $(ssh-agent) && ssh-add'
+  355  ssha
+  356  vim .bashrc
+  357  tmux new -s ansible
+  358  ssh addr
+  359  shh add
+  360  ip addr
+  361  ssh lemon@192.168.100.21
+  362  ssh 192.168.100.21
+  363  vim keygen.pub 
+  364  ssh 192.168.100.21
+  365  ssh -v 192.168.100.21
+  366  ssh 192.168.100.21
+  367  vim keygen.pub 
+  368  ssh 192.168.100.21
+  369  cp keygen .ssh/id_rsa
+  370  cp keygen.pub .ssh/id_rsa
+  371  cp keygen .ssh/id_rsa
+  372  cp keygen.pub .ssh/id_rsa.pub
+  373  vim .ssh config
+  374  vim .ssh/ config
+  375  vim .ssh/config
+  376  ssh 192.168.100.21
+  377  ls
+  378  ls -ahlt
+  379  cd .ssh
+  380  ls
+  381  cd ..
+  382  cd /home
+  383  ls
+  384  vim /etc/network/interface
+  385  vim /etc/ssh/sshd_config
+  386  sudo su
+  387  sudo adduser pc
+  388  ip
+  389  ip --man
+  390  ip --help
+  391  man ip
+  392  ip -s
+  393  man ip
+  394  history
+  395  iptables
+  396  ip addr
+  397  sudo systemctl status ssh
+  398  cd /home/lemon/.ssh
+  399  ls
+  400  vim id_rsa.pub
+  401  ssh laptop@192.168.1.205
+  402  ip add
+  403  ls /home
+  404  ssh laptop@192.168.1.205
+  405  ssh pc@192.168.1.205
+  406  cd ..
+  407  cd /home
+  408  ls
+  409  cd riki
+  410  cd /riki
+  411  cd /home/riki
+  412  sudo /home/riki
+  413  sudo cd /home/riki
+  414  ip a
+  415  cd ..
+  416  sudo apt install openssh-server
+  417  ip a
+  418  ssh laptop@192.168.1.205
+  419  62510.
+  420  320
+  421  ssh pc@192.168.1.205
+  422  sudo apt install ansible
+  423  systemctl status ssh
+  424  sudo apt install tmax
+  425  sudo apt install tmux
+  426  tmux
+  427  ip a
+  428  alias ssha='eval $(ssh-agent) && ssh-add'
+  429  ssha
+  430  vim .bashrc
+  431  agent
+  432  jobs
+  433  ping -c 10 google.com
+  434  jobs
+  435  ping -c 10 google.com
+  436  bg 1
+  437  fg1
+  438  ping -c 100 google.com
+  439  jobs
+  440  bg 1
+  441  fg1
+  442  fg 1
+  443  whitc gt
+  444  which git
+  445  sudo apt install git
+  446  which git
+  447  sudo apt update
+  448  sudo apt upgrade
+  449  cat .ssh/id_ed25519.pub
+  450  git clone git@github.com:KerteszPaul/ansible.git
+  451  ls
+  452  cd ansible/
+  453  ls
+  454  cat README.md 
+  455  git config --global user.name "lemon"
+  456  git config --global user.email "k.paul2604@gmail.com"
+  457  cat ~.gitconfig
+  458  cat ~/.gitconfig
+  459  vim README.md 
+  460  cat README.md 
+  461  git status
+  462  git diff README.md
+  463  git add README.md 
+  464  git status
+  465  git commit -m "updated readme file"
+  466  git push origin master
+  467  git push origin main
+  468  history
+  469  history | cat >> comands
